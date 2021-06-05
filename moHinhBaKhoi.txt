@@ -1,0 +1,44 @@
+bài 1:
+    đầu vào:
+        cho người dùng nhập vào số ngày làm việc vào ô input
+        lấy dữ liệu người dùng từ ô input qua nút bấm
+    thuật toán:
+        lấy dữ liệu có được từ người dùng * 100000
+    đầu ra: 
+        hiển thị kết quả ra màn hình qua thẻ DIV
+
+bài 2:
+    đầu vào:
+        lấy giá trị lần lượt 5 lần qua 1 ô input sau mỗi lần bấm nút 'tính'
+    thuật toán:
+        tạo 1 biến gán tổng của 5 giá trị được lấy từ người dùng rồi chia cho 5
+    đầu ra:
+        hiện thị biến tổng ra màn hình qua thẻ DIV
+
+bài 3:
+    đầu vào:
+        lấy số tiền USD hiện có của người dùng từ 1 ô input khi bấm nút
+    thuật toán:
+        lấy giá trị của số tiền USD * 23500
+    đầu ra:
+        hiện thị số tiền VND đã được quy đổi từ số tiền USD lên màn hình thông qua DIV
+
+bài 4:
+    đầu vào:
+        lấy dữ liệu từ 2 input lần lượt là chiều dài và chiều rộng của
+        hình chữ nhật khi bấm nút
+        làm 2 nút bấm. 1 dành cho tính diện tích, 2 dành cho tính chu vi
+    thuật toán:
+        khi bấm nút tính diện tích thì sẽ lấy giá trị chiều dài * chiều rộng
+        khi bấm nút tính chu vi thì sẽ lấy lấy chiều dài + chiều rộng rồi * 2       
+    đầu ra:
+        hiển thị 1 trong 2 cách tính ra màn hình qua thẻ DIV
+
+bài 5:
+    đầu vào:
+    lấy giá trị số ký qua input khi bấm nút
+    thuật toán:
+        tạo biến gán cho giá trị đó % 10 và 1 biến gán cho giá trị đó / 10
+        lấy 2 biến cộng cho nhau
+    đầu ra:
+        hiện thị kết quả được cộng ra màn hình qua thẻ div
