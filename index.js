@@ -42,17 +42,28 @@ document.getElementById('btnQuyDoi').onclick = function () {
 };
 
 ///////////////////////////////////////////////////////////////
-
+let tinhDTCV = document.getElementById('tinhDTCV');
 function tinhDienTich() {
   let chieuDai = +document.getElementById('chieuDai').value;
   let chieuRong = +document.getElementById('chieuRong').value;
   let tong = chieuDai * chieuRong;
-  console.log(tong);
+  tinhDTCV.innerHTML = `DIỆN TÍCH LÀ: ${tong}`;
+  tinhDTCV.style.visibility = 'visible';
 }
-
 function tinhChuVi() {
   let chieuDai = +document.getElementById('chieuDai').value;
   let chieuRong = +document.getElementById('chieuRong').value;
   let tong = (chieuDai + chieuRong) * 2;
-  console.log(tong);
+  tinhDTCV.innerHTML = `CHU VI LÀ: ${tong}`;
+  tinhDTCV.style.visibility = 'visible';
+}
+
+///////////////////////////////////////////////////////////////
+
+function tinhSoKy() {
+  let soKy = +document.getElementById('inputSoKy').value;
+  let tong = parseInt(soKy / 10 + (soKy % 10));
+  let outputSoKy = document.getElementById('outputSoKy');
+  outputSoKy.style.visibility = 'visible';
+  outputSoKy.innerHTML = `TỔNG CỦA 2 SỐ KÝ LÀ: ${tong}`;
 }
